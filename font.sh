@@ -1,5 +1,5 @@
 #安装支持
-yum  -y  install  fontconfig mkfontscale ttmkfdir
+yum  -y  install wget fontconfig mkfontscale ttmkfdir
 #mkdir /usr/share/fonts/local -p
 wget -O /usr/share/fonts/local/simsun.ttc https://github.com/xudazhu1/support/raw/master/simsun.ttc
 chmod -R 755 /usr/share/fonts/local
